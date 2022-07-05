@@ -8,7 +8,7 @@ public class assignment_one {
 
     }
 
-    public static long dataMillisec( long numberOfDays){
+    public static long dataMillisec(long numberOfDays){
         long result;
         long selectedDataTimeMs = numberOfDays * 1000 * 60 * 60 * 24;
         long currentTime = System.currentTimeMillis();
